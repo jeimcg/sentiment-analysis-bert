@@ -1,6 +1,8 @@
 # **Lyric Sentiment Analysis with Fine-Tuned BERT**
 
-In this project, I explored the emotional undertones in my own song lyrics using advanced natural language processing (NLP) techniques. A fine-tuned BERT model (`bert-tiny`) was employed to classify lyrics into sentiment categories. This analysis integrates preprocessing workflows, sentiment labeling, training, and validation pipelines while extracting meaningful insights like word frequencies from the lyrics.
+In this project, I explored the emotional undertones in song lyrics for my musical project [flowrwatr](https://open.spotify.com/artist/0icq24JYa6fyKzWHjGLiFB) using advanced natural language processing (NLP) techniques. A fine-tuned BERT model (`bert-tiny`) was employed to classify lyrics into sentiment categories. This analysis integrates preprocessing workflows, sentiment labeling, training, and validation pipelines while extracting meaningful insights like word frequencies from the lyrics.
+
+---
 
 ## **Authors**
 - [@jeimcg](https://www.github.com/jeimcg)
@@ -42,4 +44,49 @@ To build a comprehensive pipeline for processing song lyrics, assigning sentimen
   - Test Loss: 0.1074
 - **Sentiment Predictions**:
   ```python
-  [{'label': 'LABEL_0', 'score': 0.6137}, {'label': 'LABEL_0', 'score': 0.5820}]
+  'label': 'LABEL_0', 'score': 0.6137}, {'label': 'LABEL_0', 'score': 0.5820
+  
+---
+
+## **Features**
+- **Sentiment Analysis**: Identifies emotional tones in lyrics using a fine-tuned BERT model.
+- **Data Preparation**: Automates text cleaning and sentiment labeling for large datasets.
+- **Word Frequency Analysis**: Highlights common words in lyrics for further insights.
+- **Training and Validation**: Includes performance metrics to evaluate the model.
+
+---
+
+## **Setup**
+- **Clone the Repository**
+  ```bash
+  git clone https://github.com/jeimcg/sentiment-analysis-bert
+  cd sentiment-analysis-bert
+- **Install Dependencies**
+  ```bash
+  pip install -r requirements.txt
+- **Run the Colab Notebook**
+  - Open bert_end_to_end_sentiment_pipeline.ipynb in Google Colab
+  - Upload lyrics_with_labels.xlsx dataset into environment
+  - Follow notebook steps to clean/preprocess, train/validate model, and analyze results
+
+---
+
+## **Acknowledgements**
+Thanks to: 
+- Hugging Face Transformers for pre-trained models.
+- TextBlob for sentiment labeling.
+- Open-source communities for their tools and documentation.
+- Special appreciation for self-learning, persistence, and curiosity in data science and machine learning at age 24! 😊
+
+---
+
+## **Future Improvements**
+- Expand dataset diversity for improved generalization.
+- Use a larger pre-trained BERT model for enhanced accuracy.
+- Add data augmentation for better handling of rare labels.
+- Deploy the model as an API or integrate into a web application.
+
+  
+  
+  
+

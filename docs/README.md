@@ -1,6 +1,6 @@
 # **Lyric Sentiment Analysis with Fine-Tuned BERT**
 
-In this project, I explored the emotional undertones in song lyrics using advanced natural language processing (NLP) techniques. A fine-tuned BERT model (`bert-tiny`) was employed to classify lyrics into sentiment categories. This analysis integrates preprocessing workflows, sentiment labeling, training, and validation pipelines while extracting meaningful insights like word frequencies from the lyrics.
+In this project, I explored the emotional undertones in my own song lyrics using advanced natural language processing (NLP) techniques. A fine-tuned BERT model (`bert-tiny`) was employed to classify lyrics into sentiment categories. This analysis integrates preprocessing workflows, sentiment labeling, training, and validation pipelines while extracting meaningful insights like word frequencies from the lyrics.
 
 ## **Authors**
 - [@jeimcg](https://www.github.com/jeimcg)

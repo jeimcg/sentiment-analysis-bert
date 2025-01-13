@@ -2,8 +2,17 @@
 venv/
 
 # Ignore large data files
+*.xlsx
+*.xlsm
+*.xls
 *.csv
+*.txt
 *.db
+
+# Ignore Excel temporary files
+~$*.xlsm
+~$*.xlsx
+~$*.xls
 
 # Ignore compiled Python files
 *.pyc
@@ -16,7 +25,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Ignore model files (optional, if saved locally and not uploaded)
+# Ignore model files (optional)
 models/
 *.bin
 *.pt
@@ -30,4 +39,3 @@ models/
 
 # Ignore sensitive configuration files
 .env
-
